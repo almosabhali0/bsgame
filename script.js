@@ -1,4 +1,4 @@
-let s=1, e=100;
+let s=1, e=1000000;
 let mid=((e+s)/2)>>0;
 let found=0;
 let num=document.getElementById("number");
@@ -35,7 +35,7 @@ function correct() {
     num.innerText="your number is: "+mid;
 }
 function restart() {
-    s=1, e=100;
+    s=1, e=1000000;
     mid=((e+s)/2)>>0;
     found=0;
     num.innerText=mid;
